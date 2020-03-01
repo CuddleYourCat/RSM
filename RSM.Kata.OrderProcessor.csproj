@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RSM.Kata.DTO\**" />
+    <Compile Remove="RSM.Kata.Entities\**" />
+    <Compile Remove="RSM.Kata.OrderProcessor\**" />
+    <Compile Remove="RSM.Kata.Service\**" />
+    <Compile Remove="RSM.Kata.Shared\**" />
+    <EmbeddedResource Remove="RSM.Kata.DTO\**" />
+    <EmbeddedResource Remove="RSM.Kata.Entities\**" />
+    <EmbeddedResource Remove="RSM.Kata.OrderProcessor\**" />
+    <EmbeddedResource Remove="RSM.Kata.Service\**" />
+    <EmbeddedResource Remove="RSM.Kata.Shared\**" />
+    <None Remove="RSM.Kata.DTO\**" />
+    <None Remove="RSM.Kata.Entities\**" />
+    <None Remove="RSM.Kata.OrderProcessor\**" />
+    <None Remove="RSM.Kata.Service\**" />
+    <None Remove="RSM.Kata.Shared\**" />
+  </ItemGroup>
+
+</Project>
